@@ -1,1 +1,9 @@
+Development Environment Setup
 
+I installed VS Code and the C/C++ extension for C programming.
+I also installed MinGW-w64 to use GCC as my C compiler.
+Initially, the "gcc" command was not recognized in the terminal.
+I fixed the problem by adding the MinGW "bin" folder to the system PATH.
+After restarting VS Code, I checked the setup using "gcc --version".
+The compiler version was displayed successfully, so I compiled "hello.c".
+Finally, the program ran successfully and displayed “Hello, World!”.
